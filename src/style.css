@@ -1,0 +1,129 @@
+*{
+    background-color: #242121;
+    color: white;
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #292828;
+    
+}
+
+.right{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    background-color: #292828;
+}
+
+.mid{
+    display: flex;
+    gap:10px;
+}
+
+.left{
+    display: flex;
+    gap:20px;
+    background-color: #292828;
+}
+
+.left img{
+    width:35px;
+    background-color: #292828;
+    cursor: pointer;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: #373737;
+}
+
+.searchbar input{
+   border: none;
+   outline: none;
+   padding: 8px;
+   width:400px;
+   background-color: #373737;
+}
+
+.mid button{
+    border: 1px solid #9b9a9a;
+    width: 100px;
+    color: #9b9a9a;
+    cursor: pointer;
+}
+
+
+
+.card-container{
+    display: flex;
+    margin-top: 40px;
+    border-radius: 10px;
+    width:40%;
+    height: 300px;
+    gap:40px;
+    background: #71C5F461;
+     margin-bottom: 30px;
+     margin-left: 30px;
+     padding : 30px;
+}
+
+.info{
+     background:transparent;
+     
+}
+
+.image{
+    
+    border: 1px solid greenyellow;
+    transform: rotate(-5deg);
+}
+
+.image img{
+    width:200px;
+    height: 300px;
+    
+}
+
+.info button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.card-container h2{
+    background: transparent;
+    margin-bottom: 30px;
+}
+
+.card-container p{
+   height: 150px;
+   overflow-y: auto;
+   background: transparent;
+   margin-bottom: 30px;
+}
+
+.card-container p::-webkit-scrollbar {
+    width: 0.1em; /* Set the width of the scrollbar to a very small value */
+  }
+  
+.card-container p::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Set the scrollbar thumb color to transparent */
+  }
+ 
+  
+  
+  
+  
+  
+  
